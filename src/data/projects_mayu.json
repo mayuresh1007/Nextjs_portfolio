@@ -1,0 +1,40 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "images": ["image1.jpg", "image2.jpg"],
+        "title": "Project A",
+        "subtitle": "A brief description of Project A"
+      },
+      {
+        "id": 2,
+        "images": ["image3.jpg", "image4.jpg", "image5.jpg"],
+        "title": "Project B",
+        "subtitle": "A detailed explanation of Project B"
+      },
+      {
+        "id": 3,
+        "images": ["image6.jpg"],
+        "title": "Project C",
+        "subtitle": "A short summary of Project C"
+      },
+      {
+        "id": 4,
+        "images": ["image7.jpg", "image8.jpg"],
+        "title": "Project D",
+        "subtitle": "A comprehensive overview of Project D"
+      },
+      {
+        "id": 5,
+        "images": ["image9.jpg", "image10.jpg", "image11.jpg"],
+        "title": "Project E",
+        "subtitle": "A concise description of Project E"
+      },
+      {
+        "id": 6,
+        "images": ["image12.jpg"],
+        "title": "Project F",
+        "subtitle": "A brief explanation of Project F"
+      }
+    ]
+  }
