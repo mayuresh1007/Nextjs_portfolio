@@ -1,3 +1,4 @@
+import { Cards } from "@/components/Cards";
 import HeroSection from "@/components/HeroSection";
 import Image from "next/image";
 
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="min-h-screen ☐bg-black/[0.96] antialiased bg-grid-white/[0.02] md:mt-0">
       <div className="mt-0">
         <HeroSection />
+        <Cards/>
       </div>
     </main>
   );
