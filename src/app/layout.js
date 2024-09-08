@@ -22,15 +22,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
         {/* this is as like outlet for main app and rendered to all pages  */}
         {/* <h3 className="text-center text-blue-600">item from root layout</h3>  */}
         {/* <NavBar/> self made  */}
         <div className="relative w-full flex items-center justify-center">
           <NavBar />
+          {children}
         </div>
-        {children}
       </body>
     </html>
   );

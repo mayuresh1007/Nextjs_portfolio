@@ -15,7 +15,7 @@ export function Cards() {
           <div className="flex py-2 justify-center items-center">
             <BackgroundGradient
               key={item.id}
-              className=" rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900"
+              className=" rounded-[22px] max-w-sm p-3 sm:p-10 bg-white dark:bg-zinc-900"
             >
               <Image
                 src={item.images[0]}
